@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://igorkispeco:IK23091987@raptor.dqmbqba.mongodb.net/carVendor",
+    "mongodb+srv://tester:Tester2803@raptor.dqmbqba.mongodb.net/carVendor",
     { useNewUrlParser: true }
   )
   .then(() => {
