@@ -47,9 +47,10 @@ class CarVendor extends Component {
   paginate = (pageNumber) => this.setState({ currentPage: pageNumber });
 
   render() {
-    const { currentPage, carsPerPage } = this.state;
-
     const { models } = this.props.carStore;
+    
+    // LOGIKA PAGINACIJE
+    const { currentPage, carsPerPage } = this.state;    
     const indexOfLastPost = currentPage * carsPerPage;
     const indexOfFirstPost = indexOfLastPost - carsPerPage;
     const currentPosts = models.slice(indexOfFirstPost, indexOfLastPost);
