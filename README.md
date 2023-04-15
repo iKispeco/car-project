@@ -1,5 +1,6 @@
 # car-project
 Simple web-app without styling. With frontend and backend (db: mongoDB atlas)
+
 Tech-stack: JS, React, MobX, Node.js, Express.js, MongoDB, JSON, (HTML, CSS)
 
 STEPS:
